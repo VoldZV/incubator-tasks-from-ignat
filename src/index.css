@@ -5,9 +5,15 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: no-repeat center/cover url('./img/bg-root.jpg');
+    min-height: 1000px;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*#root {
+
+}*/
