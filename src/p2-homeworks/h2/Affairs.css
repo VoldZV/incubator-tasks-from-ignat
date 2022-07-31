@@ -1,0 +1,51 @@
+.homeWorks {
+    padding-left: 120px;
+}
+
+.btnWrap {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.btnWrap button{
+    width: 50px;
+}
+
+.affWrapper {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 250px;
+}
+
+.affRowWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.affRowWrap .high {
+    background-color: #e35f5f;
+}
+
+.affRowWrap .middle {
+    background-color: #fff47f;
+}
+
+.affRowWrap .low {
+    background-color: #91e791;
+}
+
+.delBtn {
+    width: 30px;
+    height: 30px;
+    background-color: #d5d5d2;
+    border-radius: 100%;
+    color: #2f0a54;
+    font-weight: bold;
+}
