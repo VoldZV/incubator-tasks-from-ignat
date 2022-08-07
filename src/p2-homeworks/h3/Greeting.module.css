@@ -1,7 +1,22 @@
 .someClass {
-
+    min-height: 70px;
+    position: relative;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.spanError {
+    display: block;
+    color: red;
+    position: absolute;
+    outline: red;
+    font-size: 12px;
+    top: 30px
+}
+
+.spanError:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }
