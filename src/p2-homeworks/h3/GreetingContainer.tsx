@@ -17,11 +17,12 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const [error, setError] = useState<string>('') // need to fix any
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
-        setName(e.currentTarget.value)
-        setError('')
-        if (!e.currentTarget.value.trim()) {
+        if (!e.currentTarget.value.trim() && !name) {
             setName('')
             setError('Имя обязательно. Введите без пробелов')
+        } else {
+            setName(e.currentTarget.value)
+            setError('')
         }
     }
 

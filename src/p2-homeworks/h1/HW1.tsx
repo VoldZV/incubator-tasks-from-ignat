@@ -9,11 +9,16 @@ const messageData = {
 }
 
 
+
+const hw1Header = {
+    marginLeft: '130px'
+}
+
 function HW1() {
     return (
         <div>
             <hr/>
-            homeworks 1
+            <p style={hw1Header}>homeworks 1</p>
 
             {/*should work (должно работать)*/}
 

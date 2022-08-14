@@ -16,7 +16,7 @@ function HW3() {
         setUsers([{_id: v1(), name}, ...users]) // need to fix
     }
     const pStyle = {
-        textAlign: 'center' as const,
+        marginLeft: '95px',
         width: '200px'
     }
 

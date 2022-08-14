@@ -1,6 +1,7 @@
 .someClass {
     min-height: 70px;
     position: relative;
+    margin-left: 50px;
 }
 
 .error {

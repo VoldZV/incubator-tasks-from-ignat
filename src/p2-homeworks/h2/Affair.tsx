@@ -13,8 +13,8 @@ function Affair(props: AffairPropsType) {
 
     return (
         <div className='affRowWrap'>
-            <button>{props.affair.name}</button>
-            <button className={props.affair.priority}>{props.affair.priority}</button>
+            <button className={'buttons'}>{props.affair.name}</button>
+            <button className={props.affair.priority + ' buttons'}>{props.affair.priority}</button>
             <button className='delBtn' onClick={deleteCallback}>X</button>
         </div>
     )

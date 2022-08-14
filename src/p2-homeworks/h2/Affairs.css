@@ -2,11 +2,6 @@
     padding-left: 120px;
 }
 
-.btnWrap {
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-}
 .btnWrap button{
     width: 50px;
 }
@@ -24,13 +19,19 @@
     margin-bottom: 10px;
 }
 
-button {
+.buttons {
     width: 80px;
     border-radius: 5px;
 }
 
+.btnWrap {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .affRowWrap .high {
-    background-color: #e35f5f;
+    background-color: #d27f7f;
 }
 
 .affRowWrap .middle {
@@ -48,4 +49,8 @@ button {
     border-radius: 100%;
     color: #2f0a54;
     font-weight: bold;
+}
+
+.active-btn {
+    background-color: #777a79;
 }
