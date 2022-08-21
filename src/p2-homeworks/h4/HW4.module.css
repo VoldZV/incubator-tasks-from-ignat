@@ -6,8 +6,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 1300px;
 }
 
 .testSpanError {
     color: blue;
+}
+
+p {
+    margin-left: 60px;
 }

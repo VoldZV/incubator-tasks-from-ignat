@@ -30,16 +30,20 @@
     justify-content: space-between;
 }
 
-.affRowWrap .high {
+.high {
     background-color: #d27f7f;
 }
 
-.affRowWrap .middle {
+.middle {
     background-color: #fff47f;
 }
 
-.affRowWrap .low {
+.low {
     background-color: #91e791;
+}
+
+.all {
+    background-color: rgba(52, 232, 197, 0.76);
 }
 
 .delBtn {
@@ -51,6 +55,3 @@
     font-weight: bold;
 }
 
-.active-btn {
-    background-color: #777a79;
-}

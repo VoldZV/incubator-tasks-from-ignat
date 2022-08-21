@@ -1,0 +1,38 @@
+.menu {
+    position: relative;
+    transition: left 1.2s;
+    left: -280px;
+    display: flex;
+    align-items: center;
+}
+
+.menu:hover {
+    left: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 2px;
+    background-color: #2f0a54;
+    border-radius: 5px;
+    color: white;
+}
+
+.navigate {
+    width: 40px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-weight: bold;
+    color: #c6e3ea;
+    text-align: center;
+}
+
+.menu .active {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+

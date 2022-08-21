@@ -28,10 +28,10 @@ function Affairs(props: AffairsPropsType) {
             <div className="affWrapper">
                 {mappedAffairs}
                 <div className="btnWrap">
-                    <button className={props.filter === 'all' ? 'active-btn': ''} onClick={setAll}>All</button>
-                    <button className={props.filter === 'high' ? 'active-btn': ''} onClick={setHigh}>High</button>
-                    <button className={props.filter === 'middle' ? 'active-btn': ''} onClick={setMiddle}>Middle</button>
-                    <button className={props.filter === 'low' ? 'active-btn': ''} onClick={setLow}>Low</button>
+                    <button className={props.filter === 'all' ? 'all': ''} onClick={setAll}>All</button>
+                    <button className={props.filter === 'high' ? 'high': ''} onClick={setHigh}>High</button>
+                    <button className={props.filter === 'middle' ? 'middle': ''} onClick={setMiddle}>Middle</button>
+                    <button className={props.filter === 'low' ? 'low': ''} onClick={setLow}>Low</button>
                 </div>
             </div>
 
