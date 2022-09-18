@@ -1,0 +1,23 @@
+.editableSpan {
+    height: 25px;
+}
+.editableSpan span {
+    position: relative;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.editableSpan span:hover {
+    cursor: pointer;
+}
+
+.editableSpan span:hover:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -20px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url("../h6/icon/edit.png") center center/cover no-repeat;
+}

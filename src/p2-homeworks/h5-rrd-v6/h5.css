@@ -1,4 +1,6 @@
 .menu {
+    width: 320px;
+    margin-right: 0;
     position: relative;
     transition: left 1.2s;
     left: -280px;
