@@ -1,15 +1,16 @@
 .menu {
     width: 320px;
     margin-right: 0;
+    padding-left: 10px;
     position: relative;
     transition: left 1.2s;
-    left: -280px;
+    left: -290px;
     display: flex;
     align-items: center;
 }
 
 .menu:hover {
-    left: 10px;
+    left: 0px;
 }
 
 .menu a {
